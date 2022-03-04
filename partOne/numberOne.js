@@ -8,7 +8,6 @@
     - Есть ли футбольный стадион (boolean [ true(да) / false(нет) ]) 
 */
 console.log('Задание 1');
-console.log(' ');
 
 let city = 'Minsk',
   country = 'Belurus',

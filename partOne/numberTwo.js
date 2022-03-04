@@ -10,7 +10,6 @@
 
 console.log(' ');
 console.log('Задание 2');
-console.log(' ');
 
 let width = 70;
 let height = 40;
