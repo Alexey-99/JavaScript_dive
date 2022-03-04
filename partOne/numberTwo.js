@@ -8,7 +8,11 @@
     ps: каждая сущность должна находиться в отдельной переменной
 */
 
+console.log(' ');
 console.log('Задание 2');
 console.log(' ');
 
-let 
+let width = 70;
+let height = 40;
+let areaRectangle = width * height; 
+console.log('Площадь прямоугольника: ' + areaRectangle);
