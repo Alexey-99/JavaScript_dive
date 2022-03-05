@@ -14,7 +14,7 @@
 console.log(' ');
 console.log('Задание 4');
 
-const randomNumber = Math.floor(Math.random() * 100);
+let randomNumber = Math.floor(Math.random() * 100);
 
 if (randomNumber < 20){
     console.log('randomNumber меньше 20');
