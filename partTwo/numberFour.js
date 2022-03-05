@@ -10,4 +10,18 @@
     При вызове функции передайте ей, в качестве аргумента, свое имя и фамилию.
  */
 
-    
+const firstName = 'Alexey';
+const lastName = 'Koroza';
+
+function myNameFunctionOne(firstName, lastName) {
+  const fullName = `${firstName} ${lastName}`;
+  console.log(fullName);
+}
+
+const myNameFunctionTwo = (firstName, lastName) => {
+  const fullName = `${firstName} ${lastName}`;
+  console.log(fullName);
+};
+
+myNameFunctionOne(firstName, lastName);
+myNameFunctionTwo(firstName, lastName);
