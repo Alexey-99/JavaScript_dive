@@ -7,6 +7,14 @@
     - Имя(string)
     - Фамилия(string)
     - Возраст(number)
-    - Есть ли домашние животные(boolean) */
+    - Есть ли домашние животные(boolean) 
+    */
 
-    
+const person = {
+  name: 'Alexey',
+  surname: 'Koroza',
+  age: 23,
+  pets: true,
+};
+
+console.log(person);
