@@ -11,16 +11,17 @@
 console.log(' ');
 console.log('Задание 5');
 
-let randomNumbera = Math.floor(Math.random() * 100);
-console.log(randomNumber);
+let randomNumber2 = Math.floor(Math.random() * 100);
+console.log(randomNumber2);
 
-switch (randomNumbera) {
-  case 20:
-    console.log('randomNumber равен 20');
+switch (true) {
+  case randomNumber2 < 20:
+    console.log('randomNumber меньше 20');
     break;
-  case 50:
-    console.log('randomNumber равен 50');
+  case randomNumber2 > 50:
+    console.log('randomNumber больше 50');
     break;
   default:
-    console.log('randomNumber не 20, и не 50');
+    console.log('randomNumber больше 20, и меньше 50');
+    break;
 }
