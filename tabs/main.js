@@ -13,7 +13,6 @@ tabs.addEventListener('click', (e) => {
   changeClass(e.target);
   for (let i = 0; i < content.length; i++) {
     content[i].classList.remove('active');
-    console.log(content[i].dataset.content);
     if (content[i].dataset.content === currTab) {
       content[i].classList.add('active');
     }
